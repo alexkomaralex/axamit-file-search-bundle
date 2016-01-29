@@ -1,5 +1,5 @@
 {
-  "name": "alexkomaralex/axamit-file-search-bundle",
+  "name": "alexkomaralex/file-search-bundle",
   "description": "Allow to find files recursively by content.",
   "type": "symfony-bundle",
   "license": "GPL",
