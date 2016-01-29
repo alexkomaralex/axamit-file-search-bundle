@@ -1,0 +1,18 @@
+services:
+    app.search_adapter.symfony_finder:
+        class:   Axamit\FileSearchBundle\Adapter\SymfonyFinder
+
+    app.search_adapter.php_iterator:
+        class:   Axamit\FileSearchBundle\Adapter\PhpIterator
+
+    app.command.find_command:
+        class: Axamit\FileSearchBundle\Command\FindCommand
+        arguments: ["@app.search_adapter.symfony_finder"]
+        tags:
+            -  { name: console.command }
+
+#    app.command.find_command:
+#        class: Axamit\FileSearchBundle\Command\FindCommand
+#        arguments: ["@app.search_adapter.php_iterator"]
+#        tags:
+#            -  { name: console.command }
