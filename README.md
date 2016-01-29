@@ -1,8 +1,8 @@
 
-AxamitFileSearchBundle
+AlexkomaralexFileSearchBundle
 =============
 
-The AxamitFileSearchBundle allows serch files by content in Symfony2.
+The AlexkomaralexFileSearchBundle allows serch files by content in Symfony2.
 It provides a flexible interface to handle different search adapters.
 
 Features include:
@@ -13,20 +13,20 @@ Features include:
 - Unit/Functional tested
 
 
-Installation
+#Installation
 ------------
 
-#Install bundle via composer
+1. Install bundle via composer
  
 composer require alexkomaralex/file-search-bundle dev-master
 
-#Enable the bundle in AppKernel.php:
+2. Enable the bundle in AppKernel.php:
 
 new Alexkomaralex\FileSearchBundle\AlexkomaralexFileSearchBundle()
 
 
 
-Configuration
+#Configuration
 ------------
 
 Use original services.yml as example.
@@ -36,7 +36,7 @@ Or use one of two predefined adapters.
 
 
 
-Usage
+#Usage
 ------------
 
 php app/console fsearch:find [--path=PATH] <query> 
