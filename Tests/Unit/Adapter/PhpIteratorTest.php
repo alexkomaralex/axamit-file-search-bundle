@@ -1,7 +1,7 @@
 <?php
-namespace Axamit\FileSearchBundle\Tests\Unit;
+namespace Alexkomaralex\FileSearchBundle\Tests\Unit;
 
-use Axamit\FileSearchBundle\Adapter\PhpIterator;
+use Alexkomaralex\FileSearchBundle\Adapter\PhpIterator;
 
 class PhpIteratorTest extends \PHPUnit_Framework_TestCase
 {

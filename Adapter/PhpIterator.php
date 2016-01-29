@@ -1,10 +1,10 @@
 <?php
 
-namespace Axamit\FileSearchBundle\Adapter;
+namespace Alexkomaralex\FileSearchBundle\Adapter;
 
 /**
  * Class PhpIterator
- * @package Axamit\FileSearchBundle\Adapter
+ * @package Alexkomaralex\FileSearchBundle\Adapter
  */
 class PhpIterator implements FileSearchAdapterInterface
 {

@@ -1,9 +1,9 @@
 <?php
-namespace Axamit\FileSearchBundle\Tests\Command;
+namespace Alexkomaralex\FileSearchBundle\Tests\Command;
 
-use Axamit\FileSearchBundle\Command\FindCommand;
-use Axamit\FileSearchBundle\Adapter\SymfonyFinder;
-use Axamit\FileSearchBundle\Adapter\PhpIterator;
+use Alexkomaralex\FileSearchBundle\Command\FindCommand;
+use Alexkomaralex\FileSearchBundle\Adapter\SymfonyFinder;
+use Alexkomaralex\FileSearchBundle\Adapter\PhpIterator;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Tester\CommandTester;
@@ -88,7 +88,7 @@ class FindCommandPhpIteratorTest extends WebTestCase
         $adapter = new PhpIterator();
         $application->add(new FindCommand($adapter));
 
-        return $application->find('axamit_search:find');
+        return $application->find('fsearch:find');
     }
 
 }

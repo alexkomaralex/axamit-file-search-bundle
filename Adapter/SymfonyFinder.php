@@ -1,12 +1,12 @@
 <?php
 
-namespace Axamit\FileSearchBundle\Adapter;
+namespace Alexkomaralex\FileSearchBundle\Adapter;
 
 use Symfony\Component\Finder\Finder;
 
 /**
  * Class SymfonyFinder
- * @package Axamit\FileSearchBundle\Adapter
+ * @package Alexkomaralex\FileSearchBundle\Adapter
  */
 class SymfonyFinder implements FileSearchAdapterInterface
 {

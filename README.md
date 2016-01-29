@@ -16,22 +16,27 @@ Features include:
 Installation
 ------------
 
-All the installation instructions are located in the documentation.
+#Install bundle via composer
+ 
+composer require alexkomaralex/file-search-bundle dev-master
 
-Enable the bundle in AppKernel.php:
+#Enable the bundle in AppKernel.php:
 
-$bundles = array(
-  ...
- new Axamit\FileSearchBundle\AxamitFileSearchBundle()
-)
+new Alexkomaralex\FileSearchBundle\AlexkomaralexFileSearchBundle()
+
 
 
 Configuration
 ------------
-TBD
+
+Use original services.yml as example.
+
+Define any new search adapter as service and inject it into search command service
+Or use one of two predefined adapters.
+
 
 
 Usage
 ------------
 
-php app/console axamit_search:find [--path=PATH] <query> 
+php app/console fsearch:find [--path=PATH] <query> 

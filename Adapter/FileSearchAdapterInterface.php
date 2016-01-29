@@ -1,6 +1,6 @@
 <?php
 
-namespace Axamit\FileSearchBundle\Adapter;
+namespace Alexkomaralex\FileSearchBundle\Adapter;
 
 interface FileSearchAdapterInterface
 {

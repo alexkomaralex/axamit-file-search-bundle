@@ -1,6 +1,6 @@
 <?php
 
-namespace Axamit\FileSearchBundle\Command;
+namespace Alexkomaralex\FileSearchBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputArgument;
@@ -8,7 +8,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
-use Axamit\FileSearchBundle\Adapter\FileSearchAdapterInterface;
+use Alexkomaralex\FileSearchBundle\Adapter\FileSearchAdapterInterface;
 
 class FindCommand extends ContainerAwareCommand
 {
@@ -33,8 +33,8 @@ class FindCommand extends ContainerAwareCommand
     protected function configure()
     {
         $this
-            ->setName('axamit_search:find')
-            ->setDescription('Find files by content in specific directory')
+            ->setName('fsearch:find')
+            ->setDescription('Find files recursively by content in specific directory')
             ->addArgument(
                 'query',
                 InputArgument::REQUIRED,

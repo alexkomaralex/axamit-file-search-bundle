@@ -1,8 +1,8 @@
 <?php
 
-namespace Axamit\FileSearchBundle\Tests\Unit;
+namespace Alexkomaralex\FileSearchBundle\Tests\Unit;
 
-use Axamit\FileSearchBundle\Adapter\SymfonyFinder;
+use Alexkomaralex\FileSearchBundle\Adapter\SymfonyFinder;
 
 class SymfonyFinderTest extends PhpIteratorTest
 {
