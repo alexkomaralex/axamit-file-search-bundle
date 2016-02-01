@@ -43,3 +43,5 @@ php app/console fsearch:find [--path=PATH] \<query\>
 
 - path - where to find
 - query - what to find
+
+Example: php app/console fsearch:find --path=app/config database
