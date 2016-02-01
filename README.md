@@ -16,11 +16,11 @@ Features include:
 #Installation
 ------------
 
-1. Install bundle via composer
+- Install bundle via composer
  
 composer require alexkomaralex/file-search-bundle dev-master
 
-2. Enable the bundle in AppKernel.php:
+- Enable the bundle in AppKernel.php:
 
 new Alexkomaralex\FileSearchBundle\AlexkomaralexFileSearchBundle()
 
