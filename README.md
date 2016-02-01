@@ -39,4 +39,7 @@ Or use one of two predefined adapters.
 #Usage
 ------------
 
-php app/console fsearch:find [--path=PATH] <query> 
+php app/console fsearch:find [--path=PATH] \<query\> 
+
+- path - where to find
+- query - what to find
